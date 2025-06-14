@@ -2,20 +2,19 @@ using System;
 using System.IO;
 using System.Text.Json;
 
-
-namespace AdvancedMinimapColors; // Updated Namespace
+namespace AdvancedMinimapColors;
 
 public class ModSettings
 {
 
     // New colors for player body icons
     public float localPlayerRedTeamRedValue { get; set; } = 1f;
-    public float localPlayerRedTeamGreenValue { get; set; } = 0.5f;
-    public float localPlayerRedTeamBlueValue { get; set; } = 0f; // Default: Orange
+    public float localPlayerRedTeamGreenValue { get; set; } = 0f;
+    public float localPlayerRedTeamBlueValue { get; set; } = 0f; // Default: Red
 
     public float localPlayerBlueTeamRedValue { get; set; } = 0f;
-    public float localPlayerBlueTeamGreenValue { get; set; } = 1f;
-    public float localPlayerBlueTeamBlueValue { get; set; } = 0f; // Default: Green
+    public float localPlayerBlueTeamGreenValue { get; set; } = 0f;
+    public float localPlayerBlueTeamBlueValue { get; set; } = 1f; // Default: Blue
 
     public float nonLocalRedTeamRedValue { get; set; } = 1f;
     public float nonLocalRedTeamGreenValue { get; set; } = 0f;
