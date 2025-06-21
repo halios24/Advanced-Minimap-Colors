@@ -32,8 +32,11 @@ public class ModSettings
     public float BlueTeamTextRedValue { get; set; } =0.5f;
     public float BlueTeamTextGreenValue { get; set; } = 0.5f;
     public float BlueTeamTextBlueValue { get; set; } = 0.5f; // Default: Gray
+        
+    public float puckIconRedValue { get; set; } = 1f;
+    public float puckIconGreenValue { get; set; } = 1f;
+    public float puckIconBlueValue { get; set; } = 1f; // Default: White
     
-
     static string ConfigurationFileName = $"{Plugin.MOD_NAME}.json";
 
     public static ModSettings Load()
